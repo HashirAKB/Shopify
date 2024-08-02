@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Products from "./components/Products/Products";
 import TopProducts from "./components/TopProducts/TopProducts";
+import Banner from "./components/Banner/Banner";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,6 +29,7 @@ const App = () => {
       <Hero handleOrderPopup={handleOrderPopup}/>
       <Products />
       <TopProducts handleOrderPopup={handleOrderPopup}/>
+      <Banner/>
     </div>
   )
 };
