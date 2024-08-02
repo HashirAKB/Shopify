@@ -22,12 +22,12 @@ const Menu = [
     link: "/#",
   },
   {
-    id: 3,
+    id: 4,
     name: "Mens Wear",
     link: "/#",
   },
   {
-    id: 3,
+    id: 5,
     name: "Electronics",
     link: "/#",
   },
@@ -107,7 +107,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </li>
           ))}
           {/* Simple Dropdown and Links */}
-          <li className="group relative cursor-pointer">
+          <li key={2232} className="group relative cursor-pointer">
             <a href="#" className="flex items-center gap-[2px] py-2">
               Trending Products
               <span>
